@@ -21,7 +21,7 @@ const obj = {
 }
 
 
-const arr =["anik",22,5.7,{},[], function(){}]
+const arr =["anik",223,5.7,{},[], function(){}]
 //==object===========
 console.log(obj.name)
 console.log(obj["email"])
