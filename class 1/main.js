@@ -44,7 +44,7 @@ for(let key in obj){
 
 
 //array index access
-const arr1 =["anik","ashik",30,40,"programer"]
+const arr1 =["anik","ashik",30,40,"programer","suman"]
 console.log(arr1[0])
 console.log(arr1[arr1.length - 1])
 
