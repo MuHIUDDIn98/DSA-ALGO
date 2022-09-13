@@ -38,3 +38,35 @@ return min_number
  minimum_number(2,3,4,5,56,67,6)
 
 */
+//=========Math.min Math.Max========================
+
+
+console.log(Math.min(23,5,6,74,2,1,1,2,4,5))
+console.log(Math.max(23,5,6,74,2,1,1,2,4,5))
+
+function minimum(arr){
+    console.log(Math.min(...arr))
+
+}
+function Maximum(arr){
+
+console.log(Math.max(...arr))
+}
+minimum([2,3,4,54,56,6,674,3,2,2])
+Maximum([2,3,4,54,56,6,674,3,2,2])
+
+
+//===========Maximum===============
+
+function maxi(arr){
+let max_num = arr[0]
+for(let num of arr){
+if(num > max_num){
+max_num = num
+}
+
+}
+console.log(max_num)
+}
+
+maxi([3,4,5,6,7,7,53,2,4])
